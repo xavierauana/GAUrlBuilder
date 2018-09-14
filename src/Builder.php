@@ -27,7 +27,7 @@ class Builder
      */
 
     public function get(): string {
-        
+
         if ($this->url === null) {
             throw new URLBuilderException("NO URL");
         }
@@ -107,6 +107,5 @@ class Builder
 
         return $this;
     }
-
-
+    
 }
