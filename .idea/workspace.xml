@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6f5c457-3060-4dc8-9432-2039b2a5446c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Exception/URLBuilderException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Builder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Builder.php" afterDir="false" />
-    </list>
+    <list default="true" id="e6f5c457-3060-4dc8-9432-2039b2a5446c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +26,7 @@
       <file leaf-file-name="Builder.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Builder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
+            <state relative-caret-position="-945">
               <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
               <folding>
                 <element signature="e#1464#1550#0#PHP" expanded="true" />
@@ -174,12 +170,12 @@
       <option name="presentableId" value="Default" />
       <updated>1536904238721</updated>
       <workItem from="1536904242148" duration="858000" />
-      <workItem from="1536907672736" duration="160000" />
+      <workItem from="1536907672736" duration="328000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1018000" />
+    <option name="totallyTimeSpent" value="1186000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -258,7 +254,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Builder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
+        <state relative-caret-position="-945">
           <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
           <folding>
             <element signature="e#1464#1550#0#PHP" expanded="true" />
