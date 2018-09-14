@@ -8,11 +8,13 @@
 namespace Anacreation\GAUrlBuilder;
 
 
+use Anacreation\GAUrlBuilder\Exception\URLBuilderException;
+
 class Builder
 {
     private $url;
     private $source;
-    
+
     private $medium;
     private $name;
     private $term;
@@ -20,16 +22,19 @@ class Builder
 
     /**
      * Builder constructor.
-     * @param string $url
-     * @param string $source
+     * @return string
+     * @throws \Anacreation\GAUrlBuilder\Exception\URLBuilderException
      */
-    public function __construct(string $url, string $source) {
-
-        $this->url = $url;
-        $this->source = $source;
-    }
 
     public function get(): string {
+        
+        if ($this->url === null) {
+            throw new URLBuilderException("NO URL");
+        }
+        if ($this->source === null) {
+            throw new URLBuilderException("NO Source");
+        }
+
         $data = [
             "utm_source"   => $this->source,
             "utm_medium"   => $this->medium,
@@ -79,6 +84,26 @@ class Builder
      */
     public function setContent($content) {
         $this->content = $content;
+
+        return $this;
+    }
+
+    /**
+     * @param mixed $url
+     * @return Builder
+     */
+    public function setUrl($url) {
+        $this->url = $url;
+
+        return $this;
+    }
+
+    /**
+     * @param mixed $source
+     * @return Builder
+     */
+    public function setSource($source) {
+        $this->source = $source;
 
         return $this;
     }
