@@ -10,12 +10,9 @@ namespace Anacreation\GAUrlBuilder;
 
 class Builder
 {
-    /**
-     * @var string
-     */
     private $url;
-
     private $source;
+    
     private $medium;
     private $name;
     private $term;
